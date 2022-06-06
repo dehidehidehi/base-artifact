@@ -75,22 +75,6 @@
         <pluginManagement>
             <plugins>
                 <plugin>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <configuration>
-                        <argLine>
-                            --illegal-access=permit
-                        </argLine>
-                    </configuration>
-                </plugin>
-                <plugin>
-                    <artifactId>maven-failsafe-plugin</artifactId>
-                    <configuration>
-                        <argLine>
-                            --illegal-access=permit
-                        </argLine>
-                    </configuration>
-                </plugin>
-                <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <configuration>
                         <source>${maven.compiler.source}</source>
